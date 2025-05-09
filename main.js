@@ -433,7 +433,6 @@
                 defaultConfig = getConfig();
                 const apiKey = defaultConfig.zhipu_apiKey;
                 console.log('apiKey:', apiKey);
-                // const apiKey = '75df04964f224ca7b1bb7383738bb38d.dPgHyjSCmsJ7KXQd';
                 const url = 'https://open.bigmodel.cn/api/paas/v4/chat/completions ';
 
                 // 构建结构化 Prompt
